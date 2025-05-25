@@ -21,6 +21,7 @@ export default function Layout() {
       <Stack.Screen name="splash" options={{ headerShown: false }} />
       <Stack.Screen name="login" options={{ headerShown: false }} />
       <Stack.Screen name="auth/signup" options={{ headerShown: false }} />
+      <Stack.Screen name="auth/otp" options={{ headerShown: false }} />
       <Stack.Screen name="auth/signup-details" options={{ headerShown: false }} />
       <Stack.Screen name="auth/phone" options={{ headerShown: false }} />
       <Stack.Screen name="auth/password" options={{ headerShown: false }} />
