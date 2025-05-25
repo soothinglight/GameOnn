@@ -12,7 +12,10 @@ export default function App() {
       </View>
 
       <View style={styles.bottomSection}>
-        <TouchableOpacity style={styles.buttonPrimary}>
+        <TouchableOpacity 
+          style={styles.buttonPrimary}
+          onPress={() => router.push('/auth/signup')}
+        >
           <Text style={styles.buttonText}>Sign Up</Text>
         </TouchableOpacity>
 
